@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "c_lexer_test", "c_lexer_test.dsp", "{6810A96E-A2A0-4DCE-AF67-B6C042101C9B}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "herringbone", "herringbone.dsp", "{F3F9E09F-A523-4993-AF09-BC446B487489}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "herringbone_map", "herringbone_map.dsp", "{0FD43DB5-8093-4698-A6E5-3E1DAA896B76}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "image_test", "image_test.dsp", "{222CDAC4-6FEA-4219-83C1-CEC26FCC9333}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "make_readme", "..\tools\make_readme.dsp", "{71ACDB71-3ADF-47C3-A452-CF8FFDE7BE20}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "resize", "resize\resize.dsp", "{43DCC71E-192A-44DD-88A5-125505980582}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "stb", "stb.dsp", "{5877AD6A-9E53-4852-BE25-4CF42D6C26BA}"
+	ProjectSection(DevStudioProjDeps) = postProject
+		0 = stb_cpp
+		1 = image_test
+		2 = stretch_test
+		3 = c_lexer_test
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "stb_cpp", "stb_cpp.dsp", "{EE947D2C-7A29-41FE-B3D3-6896153EF50C}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "stretch_test", "stretch_test.dsp", "{4CD465D3-4090-40DC-93B4-D114CB3A8E45}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
