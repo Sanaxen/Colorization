@@ -5,6 +5,7 @@ Visual studio 2012 C++ build
 白黒画像のカラー化
 
 <img src="https://github.com/Sanaxen/Colorization/blob/master/image1.png"/>
+<img src="https://github.com/Sanaxen/Colorization/blob/master/image2.png"/>
 
 共役勾配法(Conjugate Gradient Method)で収束計算しています。
 精度は0.0001を保障していますが非常に遅いです。
