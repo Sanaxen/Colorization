@@ -13,7 +13,7 @@ Processing speed is improved by multithreading, but sparse matrix processing is 
 
 
 
-# 比較用のビルドに関して
+# About build for comparison  
   
 Anat_Levin version
   
